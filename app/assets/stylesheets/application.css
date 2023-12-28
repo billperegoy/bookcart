@@ -13,3 +13,105 @@
  *= require_tree .
  *= require_self
  */
+
+
+/*
+red     #e67a6e 
+blue    #46909c 
+yellow  #dec157
+green   #04AA6D
+*/
+
+body {
+	margin: 0;
+}
+
+header {
+	background-color: #46909c;
+	padding: 0;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: left;
+	font-family: arial;
+	color: white;
+	margin: 0;
+	padding: 100px 0px 0px 100px;
+}
+
+h2 {
+	color: #46909c;
+	font-size: 1.5em;
+	font-family: arial;
+}
+
+
+
+.tagline {
+	padding: 0px 0px 30px 100px;
+	color: white;
+	font-size: 1.25em;
+
+}
+
+.page-content {
+	padding: 0px 0px 30px 100px;
+
+}
+
+.notice {
+	padding: 10px 0px 10px 100px;
+	font-family: arial;
+	font-size: 1.1em;	
+	color: #dec157;
+	/*background-color: #dec157;*/
+
+}
+
+.alert {
+	padding: 10px 0px 10px 100px;
+	font-family: arial;
+	font-size: 1.1em;	
+	color: #e67a6e;
+	/*background-color: #e67a6e;*/
+}
+
+
+
+label {
+	font-family: arial;
+}
+
+input {
+	font-size: 1.25em;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+input[type=submit], button[type=submit] {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  margin: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a.instruction-link, a.instruction-link:visited   {
+	color: #04AA6D;
+	text-decoration: none;
+	font-family: arial;
+}
+
+a.instruction-link:hover {
+	color: #46909c;
+	}
+
+.pipe {
+	font-size: 1.25em;
+	font-weight: bold;
+}
