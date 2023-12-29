@@ -1,6 +1,13 @@
-<h1>Main Landing Page</h1>
-<% if user_signed_in? %>
-  <p>Signed in as <%= current_user.email %></p>
-<% end %>
+<p class="page-instructions">
+</p>
+
+
+
+
+
+
+
+
+
 
 <%= button_to "logout", destroy_user_session_path, method: :delete %>
