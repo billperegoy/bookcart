@@ -1,0 +1,38 @@
+<h2>Create Preferences</h2>
+
+<%= form_with do |form| %>
+  <%= form.label :shipping_policy, "Shipping Policy:" %>
+  <%= form.text_field :shipping_policy %>
+  </br>
+  <%= form.label :return_policy, "Return Policy:" %>
+  <%= form.text_field :return_policy %>
+  </br>
+  <%= form.label :terms_of_sale_title, "Terms of Sale Title:" %>
+  <%= form.text_field :terms_of_sale_title %>
+  </br>
+  <%= form.label :terms_of_sale, "Terms of Sale:" %>
+  <%= form.text_field :terms_of_sale_title %>
+  </br>
+  <%= form.label :description, "Description" %>
+  <%= form.text_area :description %>
+  </br>
+
+  <%= form.check_box :enable_best_offer %>
+  <%= form.label :enable_best_offer, "Enable Best Offer" %>
+  </br>
+  <%= form.check_box :include_title %>
+  <%= form.label :include_title, "Include Title in Description" %>
+  </br>
+  <%= form.check_box :include_author %>
+  <%= form.label :include_author, "Include Author in Description" %>
+  </br>
+  <%= form.check_box :include_keywords %>
+  <%= form.label :include_keywords, "Include Keywords in Description" %>
+  </br>
+  <%= form.check_box :include_edition %>
+  <%= form.label :include_edition, "Include Edition in Description" %>
+  </br>
+  <%= form.check_box :include_year %>
+  <%= form.label :include_year, "Include Publishing Year in Description" %>
+  </br>
+<% end %>
